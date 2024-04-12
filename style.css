@@ -1,0 +1,86 @@
+.carousel {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+  }
+  
+.school-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .school-info h2 {
+    color: #007bff;
+  }
+  
+  .school-info p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .school-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .school-info li {
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .school-info li:before {
+    content: '\2024';
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
+  
+.feedback-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .feedback-form h2 {
+    color: #007bff; 
+  }
+  
+  .feedback-form label {
+    font-weight: bold;
+  }
+  
+  .feedback-form textarea.form-control {
+    height: 100px;
+  }
+  
+  .feedback-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff; 
+  }
+  
+  .feedback-form .btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+  }
+
+.block-border-gradient {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-width: 3px; 
+    border-style: solid; 
+    border-image: linear-gradient(to right, #ff0000, #ffff00); 
+    border-image-slice: 1; 
+  }
+  
+  .school-info h2 {
+    color: #007bff; 
+  }
+  
